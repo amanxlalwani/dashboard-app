@@ -36,7 +36,7 @@ export default function Sidebar({isDark}:{isDark:boolean}) {
     
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className={`fixed top-4 ${isOpen?"left-52":"left-4"} z-50 lg:hidden p-2 rounded-lg bg-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800`}
+        className={`fixed top-5 ${isOpen?"left-52":"left-4"} z-50 lg:hidden p-2 rounded-lg bg-gray-100 dark:bg-gray-800`}
       >
         {isOpen ? (
           <X className="h-6 w-6 text-gray-600 dark:text-gray-400" />
